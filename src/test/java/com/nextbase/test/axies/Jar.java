@@ -24,9 +24,6 @@ public class Jar {
         int maxT = maxs.get(0);
 
         int mp = maxP;
-        int mt = maxT;
-
-        List<List<Integer>> dummy = new ArrayList<>();
 
         for (int i = 0; i < maxT + 1; i++) {
             if (i == maxT) {
